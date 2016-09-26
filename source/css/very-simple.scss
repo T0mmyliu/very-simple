@@ -80,7 +80,7 @@ header {
             font-size: 2.4em;
         }
         .subtitle {
-            color: #aaa;
+            color: #FFFFFF;
             font-size: 1.4em;
             margin-left: 1.2em;
         }
@@ -252,7 +252,7 @@ nav {
     display: inline-block;
     margin-left: .5rem;
     text-align: right;
-    color: #666;
+    color: #FFF;
     opacity: .6;
     transition: opacity .3s ease-in-out;
 
@@ -571,8 +571,8 @@ footer#footer {
     //box-sizing: border-box;
     //padding: 0 20px;
     text-align: right;
-    background: #333;
-    color: #CCC;
+    background: #f9f9f9;
+    color: #50799b;
     border-top: 2px solid #555;
     border-bottom: 2px solid #555;
     display: flex;
