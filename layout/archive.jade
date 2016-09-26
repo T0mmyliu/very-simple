@@ -15,7 +15,8 @@ block main
           h1.label-title=  (page.category || page.tag)
       .post
         // show all categories and tags
-        if !(page.category || page.tag)
+        //TODO 这一段有BUG暂时不知道啥原因直接先删了
+        //if !(page.category || page.tag)
             .all-categories
               ul.tag-box.list-unstyled
                 for category in site.categories.sort('name').toArray()
